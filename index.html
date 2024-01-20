@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+            <h1>Prediksi Penduduk</h1>
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden space-x-6 md:flex">
+            <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Dataset</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Prediksi</a>
+          </div>
+          <!-- Button -->
+          <a
+            href="regression.html"
+            class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+            >Get Started</a
+          >
+  
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero" class="">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:spacey-0">
+            <!-- left item -->
+            <div class="flex flex-col md:w-3/5">
+                <h1 class="max-w-md text-center py-12 text-6xl font-bold md:text-6xl md:text-left">
+                    PREDIKSI KOTA BEKASI
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue py-8 md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, impedit. Dolorum, saepe! Rem quidem illo, similique nesciunt asperiores adipisci ratione?</p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="detail.html" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight ">Lihat Detail</a>
+                </div>
+            </div>
+            <!-- image -->
+            <div class="md:w-2/5 text-center">
+                <img src="img/kotabekasilogo.png" alt="" class="mx-auto">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    
+    <!-- HEROOOOO -->
+    <section id="hero">
+        <!-- Flex Container -->
+        <div
+          class="container flex md:flex-row-reverse flex-col-reverse py-14 items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
+        >
+          <!-- Left item -->
+          <div class="flex flex-col md:w-1/2">
+            <h1
+              class="max-w-md text-4xl mt-6 md:ms-20 font-bold text-center md:text-5xl md:text-left"
+            >
+              Dataset Jumlah Penduduk Kota Bekasi
+            </h1>
+            <p class="max-w-sm text-center py-6 md:ms-20 text-darkGrayishBlue md:text-left">
+                Sumber: Badan Pusat Statistik Kota Bekasi
+              </p>
+            <p class="max-w-md text-center md:ms-20 text-darkGrayishBlue md:text-left">
+                Dalam 5 tahun terakhir, jumlah penduduk kota Bekasi fluktuatif: 2,943,859 (2018), 3,013,851 (2019), turun signifikan pada 2020 menjadi 2,543,676. Tren meningkat pada 2021 (2,564,941) dan 2022 (2,590,257). Meskipun fluktuatif, data menunjukkan tren pertumbuhan populasi, 
+            </p>
+          </div>
+          <!-- Image -->
+          <div class="md:w-1/2">
+            <img src="img/dataset.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+    <!-- HEROOOOOO -->
+
+    <!-- HERO TWO START -->
+    <section id="features">
+      <!-- Flex container -->
+      <div
+        class="container flex flex-col px-4 py-12 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row"
+      >
+        <!-- What's Different -->
+        <div class="flex flex-col space-y-12 md:w-1/2">
+          <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+            Mengapa Perlu Dilakukan Prediksi
+          </h2>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Terdapat beberapa point alasan mengapa perlu dilakukan suatu prediksi penduduk dalam suatu daerah
+          </p>
+        </div>
+
+        <!-- Numbered List -->
+        <div class="flex flex-col space-y-8 md:w-1/2">
+          <!-- List Item 1 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- Heading -->
+            <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  01
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Perencanaan Pembangunan
+                </h3>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Perencanaan Pembangunan
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Prediksi jumlah penduduk membantu pemerintah dan lembaga terkait merencanakan pembangunan infrastruktur dan layanan publik. Dengan mengetahui pertumbuhan populasi yang diperkirakan, mereka dapat mengalokasikan sumber daya dan anggaran dengan lebih efisien.
+              </p>
+            </div>
+          </div>
+
+          <!-- List Item 2 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- Heading -->
+            <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  02
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                    Pengelolaan Sumber Daya
+                </h3>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Pengelolaan Sumber Daya
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Prediksi penduduk juga penting dalam pengelolaan sumber daya alam, seperti air, energi, dan lahan. Perubahan jumlah penduduk dapat berdampak pada kebutuhan sumber daya, dan prediksi membantu mengantisipasi peningkatan atau penurunan permintaan.
+              </p>
+            </div>
+          </div>
+
+          <!-- List Item 3 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- Heading -->
+            <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  03
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                    Ekonomi dan Pasar Kerja
+                </h3>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Ekonomi dan Pasar Kerja
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Dengan mengetahui perkiraan jumlah penduduk, pelaku ekonomi dapat merencanakan pertumbuhan ekonomi dan mengantisipasi kebutuhan pasar kerja. Ini membantu dalam rekrutmen, pelatihan tenaga kerja, dan pengembangan industri.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO TWO END -->
+
+    <!-- TENSORFLOW JS -->
+    <!-- HEROOOOO -->
+    <section id="hero" class="bg-rose-200">
+      <!-- Flex Container -->
+      <div
+        class="container flex md:flex-row-reverse flex-col-reverse py-14 items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
+      >
+        <!-- Left item -->
+        <div class="flex flex-col md:w-1/2">
+          <h1
+            class="max-w-md text-3xl mt-6 md:ms-20 font-bold text-center md:text-4xl md:text-left"
+          >
+            VISUALISASI TENSORFLOW LINEAR REGRESSION
+          </h1>
+          <p class="max-w-sm text-center py-6 md:ms-20 md:text-left md:text-4xl md:font-extrabold">
+              LINEAR REGRESSION
+            </p>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img src="img/dataset.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.16.0/dist/tf.min.js"></script>
+    <script src="papaparse.min.js"></script>
+</body>
+</html>
